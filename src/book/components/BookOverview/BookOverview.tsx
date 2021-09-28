@@ -18,7 +18,7 @@ export const BookOverview = () => {
     <div className="container">
       <div className="row">
         <div className="col-md-8 col-12">
-          <table className="table table-hover">
+          <table className="table table-hover" data-testid="books-table">
             <thead>
               <tr>
                 <th scope="col">#</th>
