@@ -16,7 +16,7 @@ describe('books page', () => {
     });
 
     it('Should render some rows in the table', () => {
-        cy.get('table').find('tbody').children().should('have.length', 2);
+        cy.get('table').find('tbody').children().should('have.length.at.least', 2);
     });
 
     describe('Selectors', () => {
